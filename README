@@ -1,0 +1,69 @@
+Central Morse
+
+Uma ferramenta web interativa para converter, ouvir e compartilhar Código Morse diretamente do navegador.
+
+A Central Morse permite transformar texto em código Morse, decodificar sinais e gerar áudio com os bipes clássicos utilizados em radiocomunicação. A aplicação também permite compartilhar mensagens facilmente pelo WhatsApp. O projeto possui uma interface inspirada em terminais digitais com animação dinâmica em Canvas.
+
+Funcionalidades
+
+Texto para Morse
+Converte qualquer texto digitado para código Morse.
+
+Morse para Texto
+Decodifica sinais Morse em texto legível.
+
+Gerador de áudio Morse
+Cria o som dos bipes utilizados em transmissões Morse.
+
+Download do áudio
+Permite baixar o áudio gerado em formato compatível para compartilhamento.
+
+Compartilhamento no WhatsApp
+Envie rapidamente o código Morse gerado.
+
+Captura de microfone
+Preparado para escutar sinais Morse através do microfone.
+
+Interface tecnológica animada
+Fundo digital animado utilizando Canvas.
+
+Tecnologias utilizadas
+
+HTML5
+CSS3
+JavaScript ES6+
+Canvas API
+Web Audio API
+MediaRecorder API
+Google Fonts
+
+Como usar
+
+Abra o arquivo index.html no navegador
+ou
+
+Hospede o projeto em um servidor ou no GitHub Pages
+
+Depois disso:
+
+1.Digite um texto ou código Morse
+
+2.Escolha a conversão desejada
+
+3.Gere o áudio ou compartilhe a mensagem
+
+Estrutura do projeto
+
+central-morse/
+│
+├── index.html
+├── README.md
+
+Autor
+
+Claudio Almeida. CAAS
+Projeto desenvolvido como experimento tecnológico.
+
+Licença
+
+Este projeto é livre para uso educacional e experimental.
