@@ -1,53 +1,62 @@
-# Central Morse
+# 📡 Central Morse
 
 Uma ferramenta web interativa para converter, ouvir e compartilhar Código Morse diretamente do navegador.
 
 > [!CAUTION]
-> **Status do Projeto:** ⚠️ **EM DESENVOLVIMENTO / EXPERIMENTAL**
-> Este projeto é um protótipo tecnológico e ainda **não está concluído**.
-> * Algumas funções de decodificação via microfone estão em fase de implementação (backend lógico pendente).
-> * Podem ocorrer variações na reprodução de áudio dependendo da latência do navegador.
-> * A lógica de tradução pode apresentar inconsistências com caracteres especiais ou acentuação.
+> **Status do Projeto:** ⚠️ **EM DESENVOLVIMENTO / EXPERIMENTAL**  
+> Este projeto é um protótipo tecnológico e ainda **não está concluído**.  
+> - Algumas funções de decodificação via microfone estão em fase de implementação (backend lógico pendente).  
+> - Podem ocorrer variações na reprodução de áudio dependendo da latência do navegador.  
+> - A lógica de tradução pode apresentar inconsistências com caracteres especiais ou acentuação.  
 
-A Central Morse permite transformar texto em código Morse, decodificar sinais e gerar áudio com os bipes clássicos utilizados em radiocomunicação. A aplicação possui uma interface inspirada em terminais digitais com animação dinâmica em Canvas e osciloscópio em tempo real.
+---
 
 ## 🚀 Funcionalidades
 
-* **Texto para Morse:** Converte instantaneamente texto para bipes visuais (. e -).
-* **Morse para Texto:** Traduz sequências de código Morse de volta para texto legível.
-* **Gerador de Áudio Morse:** Síntese de som senoidal (700Hz) diretamente via Web Audio API.
-* **Osciloscópio Visual:** Visualização da forma de onda em tempo real durante a reprodução.
-* **Download de Áudio:** Exportação do sinal gerado para formato .m4a ou .webm.
-* **Integração WhatsApp:** Compartilhamento rápido dos resultados convertidos.
-* **Interface Futurista:** Fundo animado com efeito "Matrix" em binário.
+- **Texto para Morse:** Converte instantaneamente texto para bipes visuais (. e -).  
+- **Morse para Texto:** Traduz sequências de código Morse de volta para texto legível.  
+- **Gerador de Áudio Morse:** Síntese de som senoidal (700Hz) via Web Audio API.  
+- **Osciloscópio Visual:** Visualização da forma de onda em tempo real.  
+- **Download de Áudio:** Exportação do sinal em formato `.m4a` ou `.webm`.  
+- **Integração WhatsApp:** Compartilhamento rápido dos resultados.  
+- **Interface Futurista:** Fundo animado com efeito estilo “Matrix”.  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **HTML5 & CSS3:** Estrutura e estilização responsiva.
-* **JavaScript ES6+:** Lógica de conversão e manipulação de DOM.
-* **Canvas API:** Renderização do fundo animado e do osciloscópio.
-* **Web Audio API:** Geração de osciladores e controle de ganho para os bipes.
-* **MediaRecorder API:** Captura do stream de áudio para exportação de arquivos.
+- HTML5 & CSS3  
+- JavaScript (ES6+)  
+- Canvas API  
+- Web Audio API  
+- MediaRecorder API  
+
+---
 
 ## 📋 Como Usar
 
-1.  Abra o arquivo `index.html` em qualquer navegador moderno.
-2.  No campo de texto, digite sua mensagem ou o código Morse.
-3.  Utilize os botões de ação para converter, limpar ou compartilhar.
-4.  Clique em **"Gerar Áudio"** para visualizar a onda no osciloscópio e liberar o link de download.
+1. Abra o arquivo `index.html` em um navegador moderno.  
+2. Digite sua mensagem ou código Morse.  
+3. Use os botões para converter ou limpar.  
+4. Clique em **"Gerar Áudio"** para ouvir e visualizar o sinal.  
 
-## 📁 Estrutura do Arquivo
+---
+
+## 📁 Estrutura do Projeto
 
 ```text
 central-morse/
 │
-├── index.html    # Interface e lógica unificada
-└── README.md     # Documentação do sistema
+├── index.html
+└── README.md
+
 
 
 👤 Autor
-Claudio Almeida.CAAS
-Projeto desenvolvido como experimento tecnológico focado em manipulação de áudio e sinais via navegador.
+
+Claudio Almeida (CAAS)
+Projeto desenvolvido como experimento tecnológico focado em áudio e sinais via navegador.
 
 ⚖️ Licença
-Este projeto é livre para uso  experimental.
+
+Uso livre para fins educacionais e experimentais.
